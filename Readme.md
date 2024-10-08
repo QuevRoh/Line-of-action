@@ -11,8 +11,11 @@ With this tool, you will be able to :
 If you need more like guidance, community, models, please check [Line of action](https://line-of-action.com/). 
 
 # Install
+- Download this has a zip and extract it anywhere you see fit.
 - Have python installed.
-- Should have some `pip install <lib>` to do, has I did not  
+ - windows :`pip install -r requirements.txt` 
+ - mac & linux `pip3 install -r requirements.txt` 
+
 
 # How to use
 To open the app:

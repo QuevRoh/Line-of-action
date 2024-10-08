@@ -295,7 +295,7 @@ class ImageViewerApp:
                         # Mettre à jour le temps d'affichage pour l'image suivante
                         self.current_image_time = self.class_mode_times[index]
                     
-                    self.next_image()
+                    self.next_image(completed=True)
 
                 self.root.after(1000, self.update_timer)  # Appel toutes les secondes
         else:
